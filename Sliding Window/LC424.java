@@ -1,3 +1,7 @@
+// Solution to LeetCode 424: Longest Repeating Character Replacement
+// Category: Sliding Window
+// Difficulty: Medium
+
 public class LC424 {
     public int characterReplacement(String s, int k) {
         int[] arr = new int[26];
