@@ -23,7 +23,7 @@ public class LC567 {
                 return true;
             }
             if (end - start == s1.length() && count[s2.charAt(start++) - 'a']++ >= 0)
-            {
+            {	
                 counter++;
             }
         }
