@@ -1,6 +1,6 @@
 // Solution to LeetCode 213: House Robber II
 // Category: Dynamic Programming
-// Difficulty: Easy
+// Difficulty: Medium
 
 
 public class LC213 {
