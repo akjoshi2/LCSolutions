@@ -5,8 +5,7 @@
 import java.util.Arrays;
 
 public class LC300 {
-	public int lengthOfLIS(int[] nums) 
-	{
+	public int lengthOfLIS(int[] nums) {
         int[] dp = new int[nums.length+1];
         int ans = 0;
         for (int n: nums)
