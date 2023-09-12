@@ -1,9 +1,22 @@
-// Solution to LeetCode 100: Same Tree
+// Solution to LeetCode 572: Subtree of Another Tree
 // Category: Tree
 // Difficulty: Easy
 
-public class LC100 {
-	public boolean isSameTree(TreeNode p, TreeNode q) {
+public class LC572 {
+	    public boolean isSubtree(TreeNode root, TreeNode subRoot) {
+        if (root == null)
+        {
+            return false;
+        }
+        if (isSameTree(root, subRoot))
+        {
+            return true;
+        }
+        return isSubtree(root.left, subRoot) || isSubtree(root.right, subRoot);
+        
+    }
+    public boolean isSameTree(TreeNode p, TreeNode q)
+    {
         if (p == null && q == null)
         {
             return true;
@@ -12,7 +25,7 @@ public class LC100 {
         {
             return ((p.val == q.val) && isSameTree(p.left, q.left) && isSameTree(p.right, q.right));
         }
-        return false;
+        return false;   
     }
 	public class TreeNode {
 		int val;
