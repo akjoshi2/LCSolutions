@@ -1,3 +1,7 @@
+// Solution to LeetCode 102: Binary Tree Level Order Traversal
+// Category: Tree
+// Difficulty: Medium
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
