@@ -1,4 +1,4 @@
-// Solution to LeetCode 104: Maximum Depth of Binary Tree
+// Solution to LeetCode 104: Maximum Depth of Binary Tree 
 // Category: Tree
 // Difficulty: Easy
 

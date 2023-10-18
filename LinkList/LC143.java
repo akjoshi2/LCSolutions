@@ -2,8 +2,6 @@
 // Category: Linked List
 // Difficulty: Medium
 
-import LinkList.LC206.ListNode;
-
 public class LC143 {
 	    public void reorderList(ListNode head) {
         if (head == null || head.next == null)
@@ -46,4 +44,11 @@ public class LC143 {
             head2 = next;
         }
     }
+	public class ListNode {
+		int val;
+		ListNode next;
+		ListNode() {}
+		ListNode(int val) { this.val = val; }
+		ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+	}
 }
