@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LC22 {
-	    public List<String> generateParenthesis(int n) {
+	public List<String> generateParenthesis(int n) {
         List<String> ans = new ArrayList<>();
         helper(ans, "",0,0,n);
         return ans;
