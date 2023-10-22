@@ -1,3 +1,8 @@
+// Solution to LeetCode 191: Number of 1 Bits
+// Category: Bit Manipulation
+// Difficulty: Easy
+
+
 public class LC191 {
 	public int hammingWeight(int n) {
         int ans = 0;
