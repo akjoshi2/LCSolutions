@@ -1,4 +1,4 @@
-// Solution to LeetCode 235: Lowest Common Ancestor
+// Solution to LeetCode 235: Lowest Common Ancestor 
 // Category: Tree
 // Difficulty: Medium
 
