@@ -1,4 +1,5 @@
 # LeetCode 217: Contains Duplicate
+# Difficulty: Easy
 # Arrays
 # Time Complexity: O(n)
 
