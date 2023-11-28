@@ -3,6 +3,8 @@
 # Arrays
 # Time Complexity: O(n)
 
+from ast import List
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         elements = {}
